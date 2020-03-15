@@ -1,0 +1,19 @@
+{
+        "nome":"Speaker",
+        "preco":499,
+        "descricao":"Speaker Dell Inspiron i15-3583-A30P Intel Core i7 - 8GB 2TB 15,6” HD Placa de Vídeo 2GB",
+        "estoque":12,
+        "img":"./api/produtos/speaker/speaker.jpg",
+        "avaliacoes":[
+            {
+                "nome":"Raquel",
+                "estrelas":5,
+                "descricao":"este produto é muito bom, ameiii"
+            },
+            {
+                "nome":"Larissa",
+                "estrelas":2,
+                "descricao":"Atendeu minhas necessidades"
+            }
+        ]
+    }

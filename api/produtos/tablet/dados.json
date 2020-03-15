@@ -1,0 +1,19 @@
+{
+        "nome":"Tablet",
+        "preco":350,
+        "descricao":"Tablet Dell Inspiron i15-3583-A30P Intel Core i7 - 8GB 2TB 15,6” HD Placa de Vídeo 2GB",
+        "estoque":12,
+        "img":"./api/produtos/tablet/tablet.jpg",
+        "avaliacoes":[
+            {
+                "nome":"Raquel",
+                "estrelas":5,
+                "descricao":"este produto é muito bom, ameiii"
+            },
+            {
+                "nome":"Larissa",
+                "estrelas":5,
+                "descricao":"Atendeu minhas necessidades"
+            }
+        ]
+    }

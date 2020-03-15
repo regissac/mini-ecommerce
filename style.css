@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:"Calibri";
+}
+.produto_img{
+    max-width: 300px;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: linear-gradient(to right, #000 30%, #ffffff 30%);
+}
+#app{
+    padding: 0 80px;
+}
+
+/*lista produtos*/
+.produtos{
+    max-width: 900px;
+    margin: 100 auto 0 auto;
+}
+.produto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background: #ffffff;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .1);
+}
+.produto_img{
+    max-width: 300px;
+    margin-right: 40px;
+}
+.produto_titulo{
+    font-size: 30pt;
+    color: #222;
+}
+.produto_preco{
+    color: rgb(94, 94, 94);
+}
+
+/*modal*/
+.modal::before{
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 80px;
+}
+.modal_container{
+    position: relative;
+    background:linear-gradient(to right, transparent 250px, #fff 250px );
+    z-index: 1;
+    display: grid;
+    align-items: center;
+    grid-gap: 50px; 
+    padding: 50px 50px 50px 0;  
+}
+.modal_img{
+    grid-column: 1;
+    margin-top: 50px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, .1), 0px 4px 10px rgba(0, 0, 0, .2);
+}
+.modal_img img{
+    max-width: 300px;
+    display: block;
+}
+.modal_dados{
+grid-column: 2;
+max-width: 600px;
+} 
+ .modal_titulo{
+     font-size: 30pt;
+ }
+ .modal_btn{
+     margin-top: 80px;
+     background: #000;
+     cursor: pointer;
+     color: #fff;
+     border: none;
+     font-size: 14pt;
+     padding: 10px 25px;     
+ }
+ .modal_btn:active{
+     background: #ccc;
+ }
+ /*avaliacoes*/
+ .avaliacoes{
+    grid-column: 2;
+}  
+.avaliacao_subtitulo{
+    font-size: 12pt;
+}
+.avaliacao{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 20px;
+}
+.avaliacao_descricao{
+    color: rgba(0, 0, 0, .7);
+    margin: 20px 0 5px 0;
+}
+.avaliacao_usuario{
+    font-weight: bold;
+}
